@@ -1,0 +1,132 @@
+*{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    height: 200vh;
+  }
+  .box{
+    display: grid;
+    /* background-color:black; */
+    background: red url('earth.jpg') no-repeat fixed bottom;
+    background-size: cover;
+    grid-row-gap: 60px;
+    justify-content: space-evenly;
+    align-content: center;
+     
+  }
+  .calender{
+    display: flex;
+    height: 17vh;
+    width: 50vw;
+    column-gap: 17px;
+  }
+  .time{
+    display: flex;
+    height: 18vh;
+    width: 57vw;
+    column-gap: 40px;
+    animation-name: op;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    animation-delay: 10s;
+    animation-direction: alternate-reverse;
+  }
+  #day{
+    /* background-color:#087AB9; */
+    display: grid;
+    justify-content: end;
+    align-content: center;
+    /* border: rgb(0, 34, 99) solid 3px; */
+    font-weight: 900;
+    font-size: 35px;
+    color: azure;
+  }
+  #date{
+    /* background-color:#087AB9; */
+    display: grid;
+    /* justify-content: center; */
+    align-content: center;
+    /* border: rgb(0, 34, 99) solid 3px; */
+    font-weight: 900;
+    font-size: 35px;
+    color: azure;
+  }
+  /* #month{
+    background-color:#087AB9;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: rgb(0, 34, 99) solid 3px;
+  }
+  #year{
+    background-color:#087AB9;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: rgb(0, 34, 99) solid 3px; */
+  /* } */
+  #tim{
+    display: grid;
+    justify-content: end;
+    align-content: center;
+    /* border: rgb(0, 34, 99) solid 3px; */
+    font-size: 35px;
+    color: azure;
+  }
+  #hours{
+    /* background-color:#087AB9; */
+    display: grid;
+    justify-content: end;
+    align-content: center;
+    /* border: rgb(0, 34, 99) solid 3px; */
+    font-size: 60px;
+    color: azure;
+    width: 70px;
+  }
+  .col{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    /* border: rgb(0, 34, 99) solid 3px; */
+    /* font-weight: 900;
+    font-size: 60px;
+    color: azure; */
+    width: 20px;
+  }
+  .op{
+    font-weight: 900;
+    font-size: 60px;
+    color: azure;
+  }
+  #minutes{
+    /* background-color:#087AB9; */
+    display: grid;
+    /* justify-content: center; */
+    align-content: center;
+    /* border: rgb(0, 34, 99) solid 3px; */
+    font-weight: 900;
+    font-size: 60px;
+    color: azure;
+    width: 51px;
+  }
+  #seconds{
+    /* background-color:#087AB9; */
+    display: grid;
+    /* justify-content: center; */
+    align-content: center;
+    /* border: rgb(0, 34, 99) solid 3px; */
+    font-weight: 900;
+    font-size: 50px;
+    color: azure;
+  }
+  @keyframes op {
+    from{
+        width:57vw
+    }
+    to{
+        width: 80vw;
+    }}
