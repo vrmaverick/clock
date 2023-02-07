@@ -28,12 +28,6 @@
     height: 18vh;
     width: 57vw;
     column-gap: 40px;
-    animation-name: op;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    animation-iteration-count:infinite;
-    animation-delay: 10s;
-    animation-direction: alternate-reverse;
   }
   #day{
     /* background-color:#087AB9; */
@@ -123,10 +117,3 @@
     font-size: 50px;
     color: azure;
   }
-  @keyframes op {
-    from{
-        width:57vw
-    }
-    to{
-        width: 80vw;
-    }}
